@@ -146,3 +146,106 @@ header {
 #robot-pic, #user-pic{
     border-radius: 50%;
 }
+
+
+
+
+/* ------------------------ */
+/*  RESPONSIVE DESIGN       */
+/* ------------------------ */
+
+/* Large devices (default) already handled by your main CSS */
+
+/* =============================== */
+/* 📱 Tablets (max-width: 1024px) */
+/* =============================== */
+@media (max-width: 1024px) {
+
+    header {
+        font-size: 24px;
+        letter-spacing: 0.15rem;
+    }
+
+    .user-area, .chatbot-area {
+        width: 18%;
+        left: 30px;
+    }
+    .chatbot-area { right: 30px; }
+
+    .chatarea-main {
+        width: 55%;
+    }
+
+    #robot-pic, #user-pic {
+        width: 90%;
+    }
+}
+
+/* =============================== */
+/* 📱 Mobiles (max-width: 768px)  */
+/* =============================== */
+@media (max-width: 768px) {
+
+    header {
+        font-size: 22px;
+        letter-spacing: 0.1rem;
+    }
+
+    .main {
+        padding: 10px 0;
+    }
+
+    .user-area, .chatbot-area {
+        display: none; /* hide side avatars on mobile */
+    }
+
+    .chatarea-main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .chatarea-inner {
+        width: 80%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    #mic {
+        right: 15px;
+        bottom: 15px;
+        padding: 12px;
+    }
+}
+
+/* =============================== */
+/* 📱 Small Mobiles (max-width: 480px) */
+/* =============================== */
+@media (max-width: 480px) {
+
+    header {
+        height: 55px;
+        font-size: 18px;
+        line-height: 55px;
+    }
+
+    .chatarea-main {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .chatarea-inner {
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .chatarea-inner.user:before,
+    .chatarea-inner.chatbot:before {
+        display: none; /* remove triangle tail for clean mobile UI */
+    }
+
+    #mic {
+        padding: 10px;
+    }
+}
+
+

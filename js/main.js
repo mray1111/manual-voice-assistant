@@ -234,7 +234,7 @@ Yeh school lagataar yuva vidyarthiyon ko prerit karta hai taaki ve atma-vishwasi
     {
         keys: ["who", "who are doing this ", "team members", "who are the team members", "tell me about the team members", "project team"],
         answer:
-            `The project team consists of three dedicated students from Divine Word School: Ommik Tamai, Agam Badu, and Tatlom Libang. They worked under the guidance of their Mathematics Teacher, Manish Ray, to develop this Intelligent Quiz and Examination Portal. Their combined skills in programming, problem-solving, and creativity made this innovative project possible.`
+            `The project team consists of four dedicated students from Divine Word School: Ommik Tamai, Agam Badu, Dilumein Pertin and Tatlom Libang. They worked under the guidance of their Mathematics Teacher, Manish Ray, to develop this Intelligent Quiz and Examination Portal. Their combined skills in programming, problem-solving, and creativity made this innovative project possible.`
     },
     {
         keys: ["team ke sadasya", "team members kaun hain", "team members ke bare mein batao", "kon", "kon bana rahe hain ye project"],
